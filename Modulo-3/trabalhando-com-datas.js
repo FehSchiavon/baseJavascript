@@ -19,3 +19,17 @@ const hoje = new Date()
 // ===Dia de Hoje=== // é formato do dia que queremos
 const dia = hoje.getDate()
 hoje.setDate(dia + 5) // +5 dias // console.log(hoje)
+hoje.setHours(10, 30, 00) // horas, segundos, minisegundos // console.log(hoje)
+
+console.log(`
+    Dia: ${hoje.getDate()}
+    Mes: ${hoje.getMonth()}
+    Ano: ${hoje.getFullYear()}
+    Hora: ${hoje.getHours()}
+    Minute: ${hoje.getMinutes()}
+    Seconds: ${hoje.getMilliseconds()}
+`)
+
+console.log(
+    new Date(2020, 1, 20) > new Date(2020, 10, 24)
+)
