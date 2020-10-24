@@ -25,7 +25,7 @@ obj1.minhaFuncao5('teste')
 
 // FUNCTION DENTRO DO OBJECT
 const obj2 = {
-    minhaFuncao6: (parametro1) {
+    minhaFuncao6 (parametro1) {
         return `aeee ${parametro1}`
     }
 }
