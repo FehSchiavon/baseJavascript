@@ -7,5 +7,11 @@ function queDiaEHoje() {
     console.log(`Hoje é dia: ${data.getDate()}`)
 }
 
-queDiaEHoje()
+// queDiaEHoje()
+
+function soma(valor1, valor2) {
+    console.log(`A soma de ${valor1} + ${valor2} é`, valor1 + valor2)
+}
+
+// soma(23, 21)
 
